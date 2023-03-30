@@ -1,0 +1,326 @@
+body {
+    background-color: #363543;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* nav-bar */
+.navbar {
+    background-color: #363543;
+    color: #fff;
+}
+
+.navbar-links {
+    list-style-type: none;
+}
+
+.link-pages {
+    gap: 40px;
+}
+
+.smile {
+    width: 25px;
+    height: 25px;
+}
+
+.logo {
+    align-items: center;
+}
+
+.ashraffont {
+    font-size: 23px;
+}
+
+.link-setting {
+    justify-content: space-evenly;
+}
+
+.humbarger {
+    width: 30px;
+    height: 30px;
+}
+
+.bargersearcher {
+    display: none;
+}
+
+/* filter: brightness(1) invert(1); */
+
+/* info-section */
+.info-formargin {
+    margin-top: 70px;
+}
+
+.ashrafimg {
+    width: 365px;
+    height: 560px;
+}
+
+.info-fordetails {
+    justify-content: space-between;
+
+}
+
+.im {
+    font-size: 50px;
+    color: #b0b0be;
+}
+
+.ashrafintrofont {
+    position: relative;
+    z-index: 1;
+    font-size: 90px;
+}
+
+.forlinestyle {
+    height: 3px;
+    background-color: #ff0;
+}
+
+.detailfreelancer {
+    font-size: 20px;
+    color: #b0b0be;
+}
+
+.circle {
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    background-color: #2c2c38;
+    align-items: center;
+    justify-content: center;
+}
+
+.ashrafimg {
+    position: relative;
+    z-index: 1;
+    width: 365px;
+    height: 560px;
+}
+
+.servicesdetails {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.servicefont {
+    font-size: 21px;
+}
+
+.servicesdef {
+    font-size: 17px;
+    color: #b0b0be;
+}
+.social-links {
+    align-items: center;
+    gap: 10px;
+}
+
+.smalllogobg {
+    background-color: #5a5968;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.forcoloricon,.showmore {
+    color: #ff0;
+}
+
+/* spacial logos section */
+.spacial-logos {
+    margin-top: -40px;
+    padding: 30px 0px;
+    background-color: #414050;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+}
+
+.spacial-links {
+    height: 100px;
+    width: 210px;
+    background-color: #363545;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-sp {
+    width: 130px;
+    height: 100px;
+}
+
+/* yha tak */
+
+/*  My projects section  */
+.uiuxformain {
+    justify-content: space-between;
+}
+.uiux,.frontend,.mobileapp {
+    width: 180px;
+    height: 130px;
+}
+.project-order {
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 40px;
+}
+.project-completed {
+    color: #ff0;
+}
+.projectquality {
+    font-size: 17px;
+}
+.line {
+    height: 3px;
+    background-color: #b0b0be;
+}
+.checkforalign {
+    align-items: center;
+    justify-content: flex-start;
+}
+.experience-container {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project-container {
+    margin-top: -80px;
+    background-color: #2e2d38;
+    padding-top: 140px;
+    padding-bottom: 290px;
+}
+
+/*  footer section */
+.footerchild-img {
+    width: 40px;
+    height: 40px;
+}
+.backofimgfooter {
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #2c2c38;
+}
+.footerchild {
+    background-color: #403f51;
+}
+.footerforspace {
+    justify-content: space-between;
+}
+.footer-container {
+    margin-top: -190px;
+}
+/* Media Queries */
+@media screen and (max-width:576px) {
+    .navbar,.container-fluid {
+        background-color: #1b1a1d;
+        color: #fff;
+    }
+    .im {
+        font-size: 40px;
+    }
+    .detailfreelancer {
+        font-size: 15px;
+    }
+    .text-nowrap{
+        white-space: normal !important;
+    }
+    .ashrafimg{
+        width: 250px;
+        height: 360px;
+    }
+    .forlinestyle {
+        height: 3px;
+        width: 200px;
+    }
+    .circle{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    div ul {
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    .info-fordetails {
+        margin-top: -50px;
+    }
+    div ul li {
+        display: block;
+    }
+
+    div ul li a {
+        color: #fff;
+    }
+    .bargersearcher{
+        display: block;
+        height: 30px;
+        width: 30px;
+        margin-left: 190px;
+    }
+    /* yeha sy */
+    .link-setting i{
+        display: none;
+    }
+/* spacial-logos */
+.spacial-logos{
+margin-top: -30px;
+    padding: 25px 0px;
+    background-color: #414050;
+    align-content: space-around;
+    gap: 20px;
+}
+.spacial-links {
+    height: 60px;
+    width: 130px;
+}
+.link-sp {
+    width: 100px;
+    height: 65px;
+}
+.project-order {
+    /* margin-top: 0px; */
+    gap: 20px;
+}
+.project-container {
+    margin-top: -94px;
+
+}
+.ashrafintrofont {
+    font-size: 60px;
+}
+.whatcan{
+    font-size: 35px;
+}
+.project-completed {
+font-size: 24px;
+}
+.forsmallfont{
+    font-size: 12px;
+}
+.uiux,.frontend,.mobileapp {
+    width: 100px;
+    height: 75px;
+}
+.project-container {
+    padding-top: 130px;
+    padding-bottom: 280px;
+}
+.line {
+    height: 2px;
+}
+}

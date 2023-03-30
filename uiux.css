@@ -1,0 +1,44 @@
+body {
+    background-color: #363543;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a{
+    color: #fff;
+    margin-left: 20px;
+}
+.bigimg{
+    width: 495px;
+    height: 340px;
+}
+.padding{
+    padding-top: 70px;
+}
+.bgcolor{
+  background-color: #262530;
+}
+.bgcolor:hover{
+  box-shadow: 0px 0px 5px #fff;
+  transition: 0.4s ease-out;
+  transform: translatey(-8px);
+}
+.gap{
+    gap: 115px;
+}
+.rat{
+    color: #ff0;
+}
+.page{
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}

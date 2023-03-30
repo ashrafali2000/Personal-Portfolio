@@ -1,0 +1,100 @@
+body {
+    background-color: #363543;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.footer-links{
+
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Images section */
+.bigImg{
+    height: 200px;
+    width: 300px;
+}
+.navbar{
+    padding-top: 15px;
+}
+.images-section{
+    padding-top: 70px;
+}
+a .btn:hover{
+    color: #fff;
+    font-weight: 600;
+}
+.bargersearcher {
+    display: none;
+}
+.services{
+    font-size: 40px;
+    font-weight: 800;
+}
+.footer-main{
+    background-color: rgb(27, 27, 29);
+    margin-top: 50px;
+    padding-top: 25px;
+}
+.child-footer{
+    background-color: rgb(22, 65, 103);
+}
+.footer-links{
+    display: inline-block;
+}
+.smalllogobg{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+color: #080808;
+font-size: 25px;
+}
+.copyright{
+    font-size: 20px;
+}
+@media screen and (max-width:576px) {
+    .bigImg{
+        margin-top:40px
+    }
+    .images-container{
+        margin-top: -30px;
+    }
+    .bargersearcher{
+        display:inline-block;
+        height: 30px;
+        width: 30px;
+        margin-left: 100px;
+    }
+    .footer-links li {
+        display: block;
+    }
+    .services{
+        font-size: 25px;
+    }
+    div .logo-links {
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        text-align: start;
+    }
+    div .logo-links li {
+        display: block;
+    }
+
+    div .logo-links li a {
+        color: #fff;
+    }
+}
